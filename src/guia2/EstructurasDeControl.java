@@ -82,6 +82,20 @@ public class EstructurasDeControl {
         
         }
         
+        do{
+        
+            System.out.println("asdasd");
+            a = 2;
+                    
+        }while(a == 0);
+        
+        
+        for(a = 0 ; a < 10; a++){
+            
+            System.out.println("nashe" + a);
+        
+        }
+        
         
     }
 
