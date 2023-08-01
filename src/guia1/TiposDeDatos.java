@@ -23,7 +23,10 @@ public class TiposDeDatos {
         long f = 123 ;
         byte g = 127;
         boolean h = true ;
-   
+        String nombre = "Gabriel";
+        
+        System.out.println("Mi nombre es " + nombre);
+        
     }
     
 }
