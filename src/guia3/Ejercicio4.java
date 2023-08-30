@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author gbeni
  */
-public class Ejercicio1 {
+public class Ejercicio4 {
     
     public static void main(String[] args){
     
