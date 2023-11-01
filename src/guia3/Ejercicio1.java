@@ -110,8 +110,10 @@ public class Ejercicio1 {
     }
     
     public static void Div(int a,int b){
+        
+        double c = a/b ;
   
-        System.out.println("Resultado : " + (a/b));
+        System.out.println("Resultado : " + (c));
     
     }
     
