@@ -42,13 +42,11 @@ public class EstructurasDeControl {
                 System.out.println("a = 1");
                 
                 break;
-            
             case 2 : 
                 
                 System.out.println("a = 2");
                 
-                break;
-                
+                break; 
             case 3 : 
                 System.out.println("a = 3");
                 

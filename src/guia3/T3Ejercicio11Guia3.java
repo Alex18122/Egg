@@ -34,9 +34,6 @@ public class T3Ejercicio11Guia3 {
     
     public static String CambioDeChar(String a){
         
-        int i;
-        String b ;
-        
         a = a.replace("a","@");
         a = a.replace("e","#");
         a = a.replace("i", "$");
