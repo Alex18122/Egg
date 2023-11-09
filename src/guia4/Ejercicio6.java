@@ -22,6 +22,10 @@ public class Ejercicio6 {
         //usar contadores
         
         int[][] matriz = new int[4][4];
+        int[][] matriz2 = new int[4][4];
+        
+        System.out.println("");
+        
         
     }
 
