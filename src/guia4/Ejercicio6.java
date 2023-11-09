@@ -20,6 +20,9 @@ public class Ejercicio6 {
     public static void main(String[] args) {
 
         //usar contadores
+        
+        int[][] matriz = new int[4][4];
+        
     }
 
 }
