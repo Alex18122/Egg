@@ -54,7 +54,7 @@ public class Ejercicio6 {
         }
 
         int contFila = 0;
-        int contelem = 0;
+        int contelem;
         int fila1 = 0;
         int fila2 = 0;
         int fila3 = 0;
@@ -135,7 +135,6 @@ public class Ejercicio6 {
             contFila++;
 
         }
->>>>>>> develop
         
         System.out.println("suma de los elementos por filas, columnas y diagonal principal");
         
@@ -149,7 +148,7 @@ public class Ejercicio6 {
 
         System.out.println(diagonalP);
         
->>>>>>> 2ba53a53794fdddb8441c8a5f63f44e9141f6ba3
+
         
         
         for (int[] fila : matriz) {
