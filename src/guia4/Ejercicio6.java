@@ -21,7 +21,15 @@ public class Ejercicio6 {
 
         //usar contadores
         
+<<<<<<< HEAD
         int[][] matriz1 = new int[4][4];
+=======
+        int[][] matriz = new int[4][4];
+        int[][] matriz2 = new int[4][4];
+        
+        System.out.println("");
+        
+>>>>>>> 2ba53a53794fdddb8441c8a5f63f44e9141f6ba3
         
     }
 
