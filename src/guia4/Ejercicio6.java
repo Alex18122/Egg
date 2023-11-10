@@ -22,6 +22,7 @@ public class Ejercicio6 {
     public static void main(String[] args) {
 
         //usar contadores
+        String aux;
         int[][] matriz = new int[3][3];
 
         Scanner s = new Scanner(System.in);
@@ -36,6 +37,20 @@ public class Ejercicio6 {
                 matriz[i][j] = s.nextInt();
 
             }
+        }
+        
+        for (int[] fila : matriz) {
+
+            aux = "";
+
+            for (int elem : fila) {
+
+                aux += "  " + elem;
+
+            }
+
+            System.out.println(aux);
+
         }
 
         int contFila = 0;
@@ -133,7 +148,7 @@ public class Ejercicio6 {
 
         System.out.println(diagonalP);
         
-        String aux;
+        
         
         for (int[] fila : matriz) {
 
