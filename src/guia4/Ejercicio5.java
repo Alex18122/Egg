@@ -34,7 +34,7 @@ public class Ejercicio5 {
                    System.out.println("\n"+matriz[i][j]+" " + traspuesta[i][j]);
                
                    if(traspuesta[i][j] == -matriz[i][j]){
-                   
+                   //podria haberlo hecho con el for mejorado
                        cont++;
                    
                    }

@@ -58,7 +58,7 @@ public class ArreglosyVectores {
         //for mejorado
         // for(tipo elemento: arreglo)
         
-            int[] producto = new int[3];
+        int[] producto = new int[3];
         
         int sum ;
         //mismas reglas que para multiplicar matrices en algebra.
