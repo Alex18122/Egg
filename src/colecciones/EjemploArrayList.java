@@ -5,6 +5,8 @@
 package colecciones;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  *
@@ -23,11 +25,11 @@ public class EjemploArrayList {
 
         }
 
-        for (String var : nombresArray) {
-
-            System.out.println(var);
-
-        }
+//        for (String var : nombresArray) {
+//
+//            System.out.println(var);
+//
+//        }
 
         //collecciones
         //no hace falta indicar el tamaño, se va a grandando mientras se le agregan objetos.
@@ -47,6 +49,12 @@ public class EjemploArrayList {
 
         System.out.println(nombresArrayList.size());
 
+        List<String> akalist = new ArrayList(Arrays.asList(nombresArray)); //toma un array y lo vuelve un arraylist
+        
+        List<String> akalist2 = new ArrayList();
+        
+        akalist2.addAll(akalist); //agrega una arraylist a otro arraylist, se le puede poner indice para que rellene desde ese punto
+        
     }
 
 }
