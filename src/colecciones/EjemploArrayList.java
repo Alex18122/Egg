@@ -6,6 +6,7 @@ package colecciones;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -55,6 +56,57 @@ public class EjemploArrayList {
         
         akalist2.addAll(akalist); //agrega una arraylist a otro arraylist, se le puede poner indice para que rellene desde ese punto
         
+//        List<String> nombres = new ArrayList();
+//        nombres.add("Lola");
+//        nombres.add("Lalo");
+//        nombres.add("Lilo");
+//        //iterator es un patron que se implemento para recorrer distintos tipos de datos
+//        Iterator<String> it = nombres.iterator();
+//        
+//        while(it.hasNext()) {
+//        
+//            String aux = it.next();
+//            if (aux.equals("Lola")){
+//                
+//                it.remove();
+//            
+//            }
+//            
+//        }
+        
+//        nombres.forEach((e) -> System.out.println(e));
+        
+        
+        
+        
+        
+
+//        for (String aux : nombres) {
+//
+//            if (aux.equals("Lola")) {
+//
+//                nombres.remove(aux);
+//
+//           } //no puedo eliminar elementos con un forEach porque se rompe la iteracion
+//
+//        }
+//        for (int i = 0; i < nombres.size(); i++) {
+//
+//            String m = nombres.get(i);
+//            if (m.equals("Lola")) {
+//
+//                nombres.remove(m);
+//
+//            }
+//
+//        }
+//        nombres.forEach((e) -> System.out.println(e)); // investigar forEach
+//        
+//       nombres.stream().count(); // investigar Stream()
+//
+//        System.out.println(nombres.toString());
+        
     }
 
 }
+
