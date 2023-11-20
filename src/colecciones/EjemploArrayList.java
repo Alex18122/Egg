@@ -19,6 +19,8 @@ public class EjemploArrayList {
 
         //Arrays
         String[] nombresArray = new String[5];
+        ArrayList<ArrayList<String>> matriz = new ArrayList(); //asi se representa una matriz con arraylists
+        
 
         for (int i = 0; i < nombresArray.length; i++) {
 
