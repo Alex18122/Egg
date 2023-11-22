@@ -17,11 +17,11 @@ public class Maps {
     public static void main(String[] args) {
         
         HashMap<Integer,String> personas = new HashMap<>();
-        HashSet<String> hashsetprueba = new HashSet<>();
-        
-        hashsetprueba.add("hola");
-        hashsetprueba.add("hola2");
-        hashsetprueba.add("hola3");
+//        HashSet<String> hashsetprueba = new HashSet<>();
+//        
+//        hashsetprueba.add("hola");
+//        hashsetprueba.add("hola2");
+//        hashsetprueba.add("hola3");
         
         personas.put(44438086,"Gabriel Benincasa");
         
@@ -47,10 +47,10 @@ public class Maps {
             
         }
         
-        for (String string : hashsetprueba) {
-            
-            System.out.println(string);
-        }
+//        for (String string : hashsetprueba) {
+//            
+//            System.out.println(string);
+//        }
         
         
     }
