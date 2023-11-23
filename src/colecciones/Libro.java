@@ -4,6 +4,8 @@
  */
 package colecciones;
 
+import java.util.Comparator;
+
 /**
  *
  * @author gbeni
@@ -29,4 +31,16 @@ class Libro {
         this.titulo = titulo;
     }
 
+    @Override
+    public String toString() {
+        return "Libro{" + "titulo=" + titulo + '}';
+    }
+    
+    public static Comparator<Libro> compNombre = new Comparator<Libro> (){
+        @Override
+        public int compare(Libro o1, Libro o2) {
+            return o2.getTitulo().compareTo(o1.getTitulo()); 
+        }
+    };
+    
 }
